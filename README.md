@@ -1,13 +1,14 @@
-# Documentation
+# Project Documentation Template
 
-Comprehensive documentation for the project, including technical design, organizational direction, and development goals.
+This repository provides a **template structure for organizing technical documentation using LaTeX**.  
+Documents are written in `.tex` format and compiled into PDF files for distribution.
 
 ---
 
 ## Table of Contents
 
 - [Overview](#overview)
-- [Documents](#documents)
+- [Documentation](#documentation)
 - [Repository Structure](#repository-structure)
 - [Development Notes](#development-notes)
 - [Building the PDFs](#building-the-pdfs)
@@ -17,21 +18,28 @@ Comprehensive documentation for the project, including technical design, organiz
 
 ## Overview
 
-This repository contains structured documentation written in LaTeX and compiled into PDF format.  
-The goal is to provide clear, version-controlled technical and organizational documentation.
+This template demonstrates a clean way to organize project documentation:
+
+- **LaTeX sources** stored separately from generated files
+- **PDF outputs** committed for easy viewing
+- **Structured documentation folders**
+- **Simple manual compilation workflow**
+
+The structure is intended for:
+
+- engineering documentation
+- architecture writeups
+- design documents
+- project mission / goals
+- technical deep dives
 
 ---
 
-## Documents
+## Documentation
 
-- **Technical Deep Dive**  
-  [technical_deep_dive.pdf](docs/technical_deep_dive.pdf)
-
-- **Mission Statement**  
-  [mission_statement.pdf](docs/mission_statement.pdf)
-
-- **Project Goals**  
-  [goals.pdf](docs/goals.pdf)
+- [Technical Deep Dive](./docs/technical_deep_dive.pdf)  
+- [Mission Statement](./docs/mission_statement.pdf)  
+- [Project Goals](./docs/goals.pdf)
 
 ---
 
@@ -57,30 +65,30 @@ The goal is to provide clear, version-controlled technical and organizational do
 
 ## Development Notes
 
-Internal planning and informal documentation can be found in:
+Informal development materials can be placed in:
 
 ```
 dev_docs/
 ```
 
-These files may include:
+This directory may contain:
 
-- design notes
-- planning documents
-- brainstorming materials
-- development TODOs
+- planning notes
+- brainstorming documents
+- architecture sketches
+- development TODO lists
 
 ---
 
 ## Building the PDFs
 
-The LaTeX source files are located in:
+The LaTeX sources are located in:
 
 ```
 docs/tex_files/
 ```
 
-To compile a document manually:
+Compile a document using:
 
 ```bash
 pdflatex -output-directory=docs docs/tex_files/<document>.tex
@@ -92,17 +100,20 @@ Example:
 pdflatex -output-directory=docs docs/tex_files/goals.tex
 ```
 
+This places the generated PDF in the `docs/` directory.
+
 ---
 
 ## Contributing
 
-1. Modify the `.tex` source in `docs/tex_files/`
+1. Edit or add `.tex` files inside `docs/tex_files/`
 2. Compile the document locally
-3. Commit the updated `.tex` and generated `.pdf`
-4. Submit changes through normal Git workflow
+3. Commit both the updated source and generated PDF
+4. Submit changes through the normal Git workflow
 
 ---
 
-## License
+## Notes
 
-Documentation in this repository is open for use, modification, and distribution according to the repository license.
+This repository is intended as a **documentation template**.  
+You can freely adapt the folder structure and document types to suit your project.
