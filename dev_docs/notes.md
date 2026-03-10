@@ -1,1 +1,9 @@
-- compile latex files with: pdflatex -output-directory=.. [filename]
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
