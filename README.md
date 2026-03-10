@@ -1,54 +1,62 @@
-# <PROJECT_NAME>
+# Project Name
 
-**<ONE_SENTENCE_TECHNICAL_SUMMARY_INCLUDING_CORE_TECH_AND_METRICS>**
+Short description of the project.
 
-[![Build](<CI_BADGE_URL>)](<CI_LINK>)
-[![Coverage](<COVERAGE_BADGE_URL>)](<COVERAGE_LINK>)
+## Overview
 
-## System Architecture
+Write a general summary here.
 
-`<PROJECT_NAME>` utilizes <ARCHITECTURE_PATTERN> to achieve <TARGET_PERFORMANCE_METRIC>. The system is partitioned into the following core subsystems:
+This project is built to solve a clear problem in a clean and organized way. It is designed to be easy to understand, easy to grow, and useful as a strong starting point for future development.
 
-1. **<SUBSYSTEM_1_NAME>:** <TECHNICAL_DESCRIPTION_OF_ALGORITHM_OR_DATA_STRUCTURE>
-2. **<SUBSYSTEM_2_NAME>:** <CONCURRENCY_MODEL_OR_STATE_MANAGEMENT_APPROACH>
-3. **<SUBSYSTEM_3_NAME>:** <STORAGE_ENGINE_OR_NETWORK_PROTOCOL_DETAILS>
+## Description
 
+Use this section to explain:
+- what the project does
+- why it exists
+- who it is for
+- what makes it useful
 
+Example:
+This project provides a structured system for handling a full workflow from start to finish. It can be used as a base for building tools, services, platforms, or internal systems.
 
-## Core Implementation
+## Main Goals
 
-The following demonstrates the <CRITICAL_EXECUTION_PATH_OR_INITIALIZATION_SEQUENCE>, highlighting the <KEY_TECHNICAL_INNOVATION_OR_RESOURCE_MANAGEMENT>.
+- clear structure
+- simple setup
+- easy development
+- flexible design
+- room to expand
 
-```<LANGUAGE_EXTENSION>
-// <COMMENT_EXPLAINING_MEMORY_OR_CONCURRENCY_SETUP>
-<INITIALIZATION_CODE_SNIPPET>
+## Project Phases
 
-// <COMMENT_EXPLAINING_CORE_LOOP_OR_PIPELINE_EXECUTION>
-<EXECUTION_CODE_SNIPPET>
-```
+### Phase 1 — Setup
 
-## Execution Phases & Roadmap
+Describe the starting stage of the project.
 
-### Phase 1: <FOUNDATIONAL_MILESTONE_NAME> (Active)
-* <LOW_LEVEL_IMPLEMENTATION_DETAIL_OR_DATA_STRUCTURE>
-* <RIGOROUS_TESTING_METHODOLOGY_OR_FAULT_INJECTION_STRATEGY>
-* <PERFORMANCE_BASELINE_METRIC_AND_CONDITIONS>
+Example:
+- create the base structure
+- add configuration
+- prepare the main folders
+- add starter files
+- write initial documentation
 
-### Phase 2: <SCALING_OR_DISTRIBUTED_MILESTONE_NAME> (<TARGET_DATE_OR_QUARTER>)
-* <NETWORK_OR_IPC_OPTIMIZATION_STRATEGY>
-* <STATE_MACHINE_OR_DATA_SHARDING_IMPLEMENTATION>
-* <FORMAL_VERIFICATION_OR_STRESS_TESTING_TARGET>
+### Phase 2 — Core Development
 
-### Phase 3: <ADVANCED_OPTIMIZATION_MILESTONE_NAME> (<TARGET_DATE_OR_QUARTER>)
-* <HARDWARE_ACCELERATION_OR_KERNEL_BYPASS_GOAL>
-* <OBSERVABILITY_OR_LOW_OVERHEAD_TELEMETRY_INTEGRATION>
-* <STORAGE_OR_COMPUTE_DISAGGREGATION_STRATEGY>
+Describe the main build stage.
 
-## Build & Deployment
+Example:
+- add core logic
+- connect main parts
+- define the project flow
+- build the important features
+- create reusable parts
 
-Requires a <OS_ENVIRONMENT_OR_KERNEL_VERSION> environment with <COMPILER_OR_RUNTIME_VERSION> and <SPECIFIC_HARDWARE_OR_SYSTEM_DEPENDENCY>.
+### Phase 3 — Testing and Improvement
 
-```bash
-# <COMMENT_EXPLAINING_OPTIMIZATION_FLAGS_OR_TARGET_TRIPLE>
-<BUILD_COMMAND>
-```
+Describe the quality stage.
+
+Example:
+- add tests
+- improve structure
+- clean up code
+- fix weak points
