@@ -13,11 +13,11 @@
 ## Table of Contents
 
 - [Overview](#overview)
+- [Usage](#usage)
 - [Key Features](#key-features)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Usage](#usage)
 - [Architecture](#architecture)
 - [Data Models](#data-models)
 - [Project Structure](#project-structure)
