@@ -1,4 +1,3 @@
-```md
 <h1 align="center">Project Name</h1>
 
 <div align="center">
@@ -85,9 +84,9 @@ cd <project-name>
 
 ---
 
-## Usage
+## Usage (get up and running in 30 seconds)
 
-Provide clear, copy-pasteable examples of how to interact with the project.
+Provide clear, copy-pasteable examples of how to interact with the project. Make it so the project can be up in running in 30 seconds or people wont want to engage.
 
 **Example Input:**
 
@@ -265,9 +264,3 @@ For major overhauls, please open an issue first to discuss your proposed changes
 ## License
 
 Distributed under the [MIT License](https://www.google.com/search?q=LICENSE). See `LICENSE` for more information.
-
-```
-
-Would you like me to tailor this template for a specific framework or language (like React, Python/FastAPI, or a Node.js CLI tool) so the commands and structure match your actual tech stack?
-
-```
