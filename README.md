@@ -84,7 +84,7 @@ cd <project-name>
 
 ---
 
-## Usage (get up and running in 30 seconds)
+## Usage
 
 Provide clear, copy-pasteable examples of how to interact with the project. Make it so the project can be up in running in 30 seconds or people wont want to engage.
 
