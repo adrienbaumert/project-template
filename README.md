@@ -13,11 +13,11 @@
 ## Table of Contents
 
 - [Overview](#overview)
-- [Usage](#usage)
 - [Key Features](#key-features)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
+- [Usage](#usage)
 - [Architecture](#architecture)
 - [Data Models](#data-models)
 - [Project Structure](#project-structure)
@@ -106,6 +106,34 @@ cd <project-name>
 
 # Start the application
 <run-command>
+
+```
+
+---
+
+## Usage
+
+Provide clear, copy-pasteable examples of how to interact with the project. Make it so the project can be up in running in 30 seconds or people wont want to engage.
+
+**Example Input:**
+
+```json
+{
+  "id": "item_001",
+  "name": "Example Item",
+  "type": "basic"
+}
+
+```
+
+**Example Output:**
+
+```json
+{
+  "id": "item_001",
+  "status": "processed",
+  "processedAt": "2026-03-10T12:00:00Z"
+}
 
 ```
 
