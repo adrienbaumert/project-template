@@ -3,7 +3,6 @@
 <div align="center">
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg" />
   <img alt="License" src="https://img.shields.io/badge/license-MIT-green.svg" />
-  <img alt="Build Status" src="https://img.shields.io/badge/build-passing-brightgreen.svg" />
 </div>
 <br/>
 
@@ -44,6 +43,34 @@
 
 ---
 
+## Usage
+
+Provide clear, copy-pasteable examples of how to interact with the project. Make it so the project can be up in running in 30 seconds or people wont want to engage.
+
+**Example Input:**
+
+```json
+{
+  "id": "item_001",
+  "name": "Example Item",
+  "type": "basic"
+}
+
+```
+
+**Example Output:**
+
+```json
+{
+  "id": "item_001",
+  "status": "processed",
+  "processedAt": "2026-03-10T12:00:00Z"
+}
+
+```
+
+---
+
 ## Key Features
 
 - **Clear Project Structure:** Standardized directory layout for rapid onboarding.
@@ -79,34 +106,6 @@ cd <project-name>
 
 # Start the application
 <run-command>
-
-```
-
----
-
-## Usage
-
-Provide clear, copy-pasteable examples of how to interact with the project. Make it so the project can be up in running in 30 seconds or people wont want to engage.
-
-**Example Input:**
-
-```json
-{
-  "id": "item_001",
-  "name": "Example Item",
-  "type": "basic"
-}
-
-```
-
-**Example Output:**
-
-```json
-{
-  "id": "item_001",
-  "status": "processed",
-  "processedAt": "2026-03-10T12:00:00Z"
-}
 
 ```
 
