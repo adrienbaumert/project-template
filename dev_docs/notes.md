@@ -1,0 +1,1 @@
+- compile latex files with: pdflatex [filename]

@@ -1,0 +1,10 @@
+[ ] auto latex doc gen on commit
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
